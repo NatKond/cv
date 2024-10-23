@@ -1,0 +1,49 @@
+*{
+    margin: auto 0;
+    padding: 0;
+    box-sizing: boarding-box;
+    color: black;
+    font-size: 1em;
+}
+body{
+    background-color:rgb(122, 154, 233);
+}
+
+p{
+    padding: 10px 0;
+} 
+
+h1{
+    font-size: 28px;
+    color: rgb(46, 52, 128);
+    padding: 10px 0;
+}
+
+h2 {
+    color: rgb(46, 52, 128);
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 10px 0;
+}
+
+section{
+    background-color:whitesmoke;
+    border-radius: 10px;
+    width:90%;
+    margin: 15px auto;
+    max-width: 1800px;
+    font-size: 20px;
+    padding: 5px 20px;
+}
+
+.foto{
+    margin: 10px;
+    border-radius: 80px;
+    width: 160px;
+    height: 160px;
+}
+
+.dates{
+    font-size: 18px;
+    color: gray;
+}
