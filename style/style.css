@@ -12,15 +12,31 @@ body{
     margin: 0 auto;
     max-width: 1000px;
     padding: 15px;
+    font: 16px sans-serif;
+}
+
+header{
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 25px;
+    background-color: rgb(234, 235, 237);
 }
 
 p{
-    /* padding: 10px 0; */
-    font-size: 18px;
+    padding: 3px 0;
+    font-size: 16px;
+}
+
+li{
+    font-size: 16px;
 }
 
 a{
     text-decoration: none;
+    font-size: 16px;
 }
 
 img{
@@ -28,26 +44,13 @@ img{
     vertical-align:bottom;
 }
 
-header{
-    /* width: 95%; */
-    margin: 0 auto;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-    /* padding: 25px; */
-    border-radius: 25px;
-    background-color: rgb(234, 235, 237);
-}
-
-
 h1{
     font-size: 28px;
     color: #30336b;
     padding: 10px 0;
 }
 
-h2 {
+h2{
     color: #30336b;
     font-size: 20px;
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -73,7 +76,6 @@ ul{
     display: flex;
     flex-direction: column;
     padding: 0 15px;
-    font: 1em sans-serif;
 }
 
 .foto{
@@ -86,15 +88,11 @@ ul{
 .contacts{
     display: flex;
     align-items: center;
-    gap:20px
+    gap:20px;
+    flex-wrap: wrap;
 }
 
 .dates{
     color:gray;
     font-size: 14px;
-}
-
-ul.education{
-    margin-bottom: 20px;
-    display: inline;
 }
