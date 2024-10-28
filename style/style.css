@@ -19,7 +19,7 @@ header{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    align-items: start;
+    align-items: center;
     border-radius: 25px;
     background-color: rgb(234, 235, 237);
     margin-bottom: 15px;
@@ -106,9 +106,10 @@ header img{
 }
 
 @media (max-width:600px){
-    /* header{
-        flex-direction: column;
-    } */
+    header{
+        /* flex-direction: column; */
+        align-items: start;
+    }
     .foto{
         width: 100px;
         height: 100px;    
