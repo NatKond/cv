@@ -1,7 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: boarding-box;
+    box-sizing:border-box;
     color: black;
     font-size: 1em;
 }
@@ -70,11 +70,7 @@ section{
 }
 
 ul{
-    list-style:circle inside;
-}
-
-header img{
-    vertical-align:top;
+    list-style: disc inside;
 }
 
 .about_me{
@@ -95,7 +91,7 @@ header img{
 .contacts{
     display: flex;
     align-items: center;
-    gap:20px;
+    gap: 20px;
     flex-wrap: wrap;
     font: 16px sans-serif;
 }
@@ -103,6 +99,14 @@ header img{
 .dates{
     color:gray;
     font-size: 14px;
+}
+
+.speciality{
+    font-weight: 600;
+}
+
+.additional{
+    font-style: oblique;
 }
 
 @media (max-width:600px){
