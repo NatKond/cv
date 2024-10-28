@@ -12,7 +12,6 @@ body{
     margin: 0 auto;
     max-width: 1000px;
     padding: 15px;
-    font: 16px sans-serif;
 }
 
 header{
@@ -76,6 +75,8 @@ ul{
     display: flex;
     flex-direction: column;
     padding: 0 15px;
+    font: 16px sans-serif;
+    line-height: 20px;
 }
 
 .foto{
@@ -90,6 +91,7 @@ ul{
     align-items: center;
     gap:20px;
     flex-wrap: wrap;
+    font: 16px sans-serif;
 }
 
 .dates{
